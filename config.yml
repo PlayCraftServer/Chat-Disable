@@ -1,0 +1,10 @@
+Prefix: '&8[&6Ex&8]&r'
+Enable: '&8[&6Chat&8] &7El chat ha sido &ahabilitado &7correctamente!'
+Disable: '&8[&6Chat&8] &7El chat ha sido &cdeshabilitado &7correctamente!'
+Broadcast 1: '&8[&6Chat&8] &b%user% &7ha &ahabilitado &7el chat!'
+Broadcast 2: '&8[&6Chat&8] &b%user% &7ha &cdeshabilitado &7el chat!'
+Fail 1: '&8[&6Chat&8] &cError&r: &7No se pudo habilitar el chat, mira la consola!'
+Fail 2: '&8[&6Chat&8] &cError&r: &7No se pudo deshabilitar el chat, mira la consola!'
+Error status: '&8[&6Chat&8] &7El chat se encuenta &cdeshabilitado&7!'
+chat:
+   status: false

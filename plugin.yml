@@ -1,0 +1,17 @@
+name: DisableChat
+main: me.DJBiokinetix.Main
+author: DJBiokinetix
+version: 1.0
+commands:
+   chat:
+    description: All commands of chat!
+permissions:
+    chat.enable:
+        default: op
+    chat.disable:
+        default: op
+    chat.*:
+        description: All permissions of chat!
+        children:
+            chat.enable: true
+            chat.disable: true
