@@ -86,6 +86,14 @@ public class Main extends JavaPlugin implements Listener{
 						} else {
 							p.sendMessage(ChatColor.RED + "Yout don't have permissions for this!");
 						}
+					} else if (args.length == 1){
+						if (args[0].equalsIgnoreCase("reload")){
+							if (p.hasPermission("chat.reload")){
+								p.sendMessage(ChatColor.GREEN + "Configuration has been reloaded!");
+								reloadConfig();
+								saveConfig();
+							}
+						}
 					}
 				}
 			}
